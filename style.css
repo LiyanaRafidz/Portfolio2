@@ -1,0 +1,175 @@
+.div1{
+  height:10%;
+  background: url(https://image.freepik.com/free-photo/white-brick-wall-textures-background_74190-6515.jpg);
+  margin-top: -35px;
+  margin-bottom: 0;
+  margin-left: -10px;
+  margin-right: -8px;
+}
+.div1pic {
+  float: top;
+  position: absolute;
+  margin-left:20px;
+  border-radius: 50%;
+}
+.div1pic:hover{
+  animation-name: divpic1animation;
+  animation-duration: 500ms;
+  animation-iteration-count: 2;
+  animation-timing-function: linear;
+}
+@keyframes divpic1animation {
+  25%{
+    transform: rotate(45deg);
+  }
+  50%{
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.div2navbar{
+  background-color: black;
+  height: 45px;
+  overflow:hidden;
+  margin-top: -35px;
+  margin-bottom: 0px;
+  margin-left: -10px;
+  margin-right: -8px;
+}
+.div2navbar a{
+  margin-left:25px;
+  color: white;
+  font-family: 'PT Sans Narrow',open-sans;
+  font-size: 27px;
+  text-align: center;
+  padding: 11px 20px;
+  text-decoration: none;
+
+}
+.div2navbar a:hover{
+  background-color:#E74C3C;
+}
+.active{
+  background-color: #3498DB;
+}
+.background1{
+  background: url(https://wallpaperaccess.com/full/1991420.jpg);
+  height: 755px;
+  background-size:100%;
+  background-repeat:no-repeat;
+  margin-top: -70px;
+  margin-left: -20px;
+  margin-bottom:-100px;
+  margin-right: -8px;
+}
+
+.box{
+  background-color: rgba(0, 0, 0, 0.4);
+  padding:40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color:white;
+  font-family: 'Century Gothic', sans-serif;
+  width:500px;
+}
+.profpic1 {
+  border-radius: 50%;
+  width:190px;
+  height:230px;
+  padding-bottom: -20px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-family: 'Farro', sans-serif;
+}
+.box h5{
+  font-size:25px;
+  letter-spacing: 3px;
+  text-align:center;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+.box li{
+  display: inline-block;
+  margin:10px;
+  list-style: none;
+}
+.box li:hover{
+  transform:scale(1.1);
+}
+.box li a{
+  color:white;
+  text-decoration: none;
+  font-size: 60px;
+}
+
+.background2 {
+    background: url(https://i.pinimg.com/originals/30/db/24/30db2442090512ff92eac1bdf372e49b.jpg);
+    width:100%;
+    height: 80%;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-family: 'Original Surfer', open-sans;
+  padding:20px;
+}
+
+.div3 {
+  margin-top: 80px;
+  margin-left: 120px;
+  background-color: #D1F2EB;
+  width:50%;
+  height:80%;
+  padding: 20px;
+  border-radius: 20px;
+}
+.div3:hover{
+  transform: scale(1.1);
+}
+.div3 h2{
+  font-family: 'PT Sans Narrow',open-sans;
+  letter-spacing: 2px;
+  line-height:
+}
+.introtxt {
+  text-align: justify;
+}
+.div4 {
+text-align: right;
+}
+.profpic2 {
+  margin-top:-310px;
+  margin-right: 100px;
+  width:280px;
+  height: 350px;
+}
+figcaption {
+  font-family: 'Shadows into Light', open-sans;
+  font-weight:bold;
+  font-size: 25px;
+  margin-right: 100px;
+}
+.table1{
+  margin: auto;
+  width:80%;
+}
+.tr1, .td1, .table1 {
+  text-align: center;
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-family:'PT Sans Narrow',open-sans;
+  padding: 20px 10px;
+  font-size: 20px;
+  background-color:#F5DA81;
+}
