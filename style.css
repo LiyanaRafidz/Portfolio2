@@ -1,6 +1,7 @@
 .div1{
   height:10%;
-  background: url(https://image.freepik.com/free-photo/white-brick-wall-textures-background_74190-6515.jpg);
+
+  background-color: #BFC9CA;
   margin-top: -35px;
   margin-bottom: 0;
   margin-left: -10px;
@@ -153,12 +154,37 @@ text-align: right;
   margin-right: 100px;
   width:280px;
   height: 350px;
+  opacity:1;
+  transition: 500ms ease;
+  backface-visibility: hidden;
+  border-radius: 10px;
 }
-figcaption {
-  font-family: 'Shadows into Light', open-sans;
+.middle{
+  transition: 500ms ease;
+  opacity: 0;
+  position: absolute;
+  top: 60%;
+  right: -3%;
+  width:268px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+.div4:hover .profpic2{
+  opacity: 0.3;
+}
+.div4:hover .middle{
+  opacity:1;
+}
+.middletext{
+  color: black;
+  background-color:#F39C12;
+  font-family:'Shadows into Light', open-sans;
   font-weight:bold;
   font-size: 25px;
-  margin-right: 100px;
+  padding: 16px 32px;
+  text-align: center;
+  border-radius: 50px;
 }
 .table1{
   margin: auto;
